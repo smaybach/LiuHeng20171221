@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.liuheng20171221.activity.RegActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       android:background="#f47920"
+       >
+       <ImageView
+           android:id="@+id/fanhui"
+           android:layout_width="25dp"
+           android:layout_height="50dp"
+           android:src="@drawable/leftjiantou"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="新用户添加"
+           android:textSize="20sp"
+           android:gravity="center"
+           />
+
+   </LinearLayout>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:padding="15dp"
+        />
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:padding="15dp"
+        />
+    <EditText
+        android:id="@+id/qpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="确认输入密码"
+        android:padding="15dp"
+        />
+    <EditText
+        android:id="@+id/mailbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:padding="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f47920"
+        android:text="注册"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        />
+
+
+
+</LinearLayout>
